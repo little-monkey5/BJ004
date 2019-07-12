@@ -5,7 +5,7 @@ sys.path.append(os.getcwd())
 from v4.page.page_login import PageLogin
 
 def get_data():
-    return [("13800001111","123456"),("13800001112","123")]
+    return [("13800001111","123456"),("13800001112","123455")]
 
 class TestLogin(object):
     # 初始化
